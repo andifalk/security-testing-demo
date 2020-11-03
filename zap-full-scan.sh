@@ -1,0 +1,1 @@
+docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-full-scan.py -t http://192.168.178.31:8080 -r zap_full_report.html
